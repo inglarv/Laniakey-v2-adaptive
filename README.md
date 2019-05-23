@@ -1,8 +1,6 @@
 
 ### Installing
 
-We offer binary images of the latest releases here: https://github.com/hummingbirdwhocode/Laniakey-v2-adaptive
-
 If you would like to compile yourself, read on.
 
 ### How To Compile
