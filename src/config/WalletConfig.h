@@ -1,7 +1,7 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The DeroGold Association
 // Copyright (c) 2019, The Excelsior Developers
-// 
+// Copyright (c) 2019, The Tstcoin Developers
 // Please see the included LICENSE file for more information.
 
 #pragma once
@@ -12,10 +12,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "XL";
+    const std::string addressPrefix = "TST";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "XLS";
+    const std::string ticker = "TSTC";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -25,20 +25,20 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "Excelsiord";
+    const std::string daemonName = "Testcoind";
 
     /* The name to call this wallet */
     const std::string walletName = "zedwallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "xls-service";
+    const std::string walletdName = "tstc-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "http://github.com/xlscoin/";
+    const std::string contactLink = "http://github.com/tstcoin/";
 
     /* The number of decimals your coin has */
     const uint8_t numDecimalPlaces = CryptoNote::parameters
