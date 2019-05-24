@@ -18,7 +18,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 60; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 30; // seconds
 
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
@@ -82,7 +82,7 @@ const uint64_t MINIMUM_MIXIN_V0                              = 0;
 const uint64_t MAXIMUM_MIXIN_V0                              = 7;
 
 /* The mixin to use by default with zedwallet and turtle-service */
-const uint64_t DEFAULT_MIXIN_V0                              = 3;
+const uint64_t DEFAULT_MIXIN_V0                              = 2;
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(0);
 
@@ -206,11 +206,11 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "https://github.com/xlscoin/excelsior/releases";
-const std::string LICENSE_URL                                = "https://github.com/xlscoin/excelsior/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "https://github.com/inglarv/testcoin/releases";
+const std::string LICENSE_URL                                = "https://github.com/inglarv/testcoin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x65, 0x78, 0x63, 0x65, 0x6c, 0x73, 0x69, 0x6f, 0x72, 0x62, 0x79, 0x6d, 0x6f, 0x72, 0x70, 0x68  }
+    {  0x55, 0x7f, 0x42, 0x88, 0x5e, 0x27, 0x64, 0x5a, 0x75, 0x62, 0x7d, 0x54, 0x88, 0x7e, 0x70, 0x55  }
 };
 
 const char* const SEED_NODES[] = {
