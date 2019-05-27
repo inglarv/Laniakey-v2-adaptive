@@ -19,7 +19,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 45; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 30; // seconds
 
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
@@ -59,7 +59,7 @@ Excelsiord --print-genesis-tx --genesis-block-reward-address XL4QZU4Nsxm6JdXWetm
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char GENESIS_COINBASE_TX_HEX[] = "015001ff000180f0efe88120021bf2421c524a7ff6fd5aa3fd16800e43fd546d4541741b770b36b4e4318617cc2101f646da76ebc4bc238b98b6ad6efc624263c880211a25cfd1f1f662082b9aeca6";
+const char GENESIS_COINBASE_TX_HEX[] = "011401ff000180f0efe8812002bcac4e99e823a7033975a1e0e3b5de89dc826243d8dd8e6dfcd0cbef721b0e242101d85dc5baff6376baff7ba8a3288b6a04c936a43f2ab48af5a4777977f12662c5";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
@@ -80,16 +80,16 @@ const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
 const uint64_t MINIMUM_MIXIN_V0                              = 0;
-const uint64_t MAXIMUM_MIXIN_V0                              = 7;
+const uint64_t MAXIMUM_MIXIN_V0                              = 10;
 
 /* The mixin to use by default with zedwallet and turtle-service */
-const uint64_t DEFAULT_MIXIN_V0                              = 2;
+const uint64_t DEFAULT_MIXIN_V0                              = 1;
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(0);
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
-const uint64_t DIFFICULTY_WINDOW                             = 60;
+const uint64_t DIFFICULTY_WINDOW                             = 20;
 const uint64_t DIFFICULTY_BLOCKS_COUNT                       = DIFFICULTY_WINDOW + 1;
 
 const size_t   MAX_BLOCK_SIZE_INITIAL                        = 100000;
