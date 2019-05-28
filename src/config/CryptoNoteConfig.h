@@ -65,7 +65,7 @@ static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) !
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
    You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
    to import from when the block height cannot be found in the node or the node is offline. */
-const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1558615679;
+const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1558966506;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
@@ -76,7 +76,7 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 5;
 
-const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
+const uint64_t MINIMUM_FEE                                   = UINT64_C(10000);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
 const uint64_t MINIMUM_MIXIN_V0                              = 0;
