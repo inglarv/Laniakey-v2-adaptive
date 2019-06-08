@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2018, The Aeon Project
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2019, The TestCoin Developers
+// 
 // Please see the included LICENSE file for more information.
 
 #pragma once
