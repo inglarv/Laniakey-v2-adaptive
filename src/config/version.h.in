@@ -4,10 +4,10 @@
 #define PROJECT_NAME "Testcoin"
 #define PROJECT_SITE "http://example.com"
 #define PROJECT_COPYRIGHT "Copyright 2019, The Testcoin Developers"
-#define APP_VER_MAJOR 0
-#define APP_VER_MINOR 1
-#define APP_VER_REV 4
-#define APP_VER_BUILD 002
+#define APP_VER_MAJOR 1
+#define APP_VER_MINOR 0
+#define APP_VER_REV 0
+#define APP_VER_BUILD 1
 
 #define BUILD_COMMIT_ID "@VERSION@"
 #define PROJECT_VERSION STR(APP_VER_MAJOR) "." STR(APP_VER_MINOR) "." STR(APP_VER_REV)
