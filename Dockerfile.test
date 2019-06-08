@@ -1,4 +1,4 @@
-# WHAT IS THIS FOR?
+# WHAT IS THIS FOR? 
 # This is a copy of Dockerfile, but prior to compiling, will set difficult to 500, resets all the
 # seed nodes to 127.0.0.1 (to avoid annoying mainnet), changes the daemon name to "TortleCoin, and mixes up the network ID.
 # Useless for mainnet, but used to setup a testnet with checkpoints, and not have to spend days mining to get to the next block!
