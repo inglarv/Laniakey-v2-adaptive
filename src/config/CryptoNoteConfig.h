@@ -59,7 +59,7 @@ Excelsiord --print-genesis-tx --genesis-block-reward-address XL4QZU4Nsxm6JdXWetm
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char GENESIS_COINBASE_TX_HEX[] = "2100000021012ec252bb1b0d4a26dee7f7654af7fb843abe4b4b2c9df92b8d389d199e9cea44";
+const char GENESIS_COINBASE_TX_HEX[] = "015001ff000180f0efe8812002a8f723cdbc4901f9a60501e5d57e2fa3f0273ca5dc22fcb981e528d142eac8e421019e85b5fc8e6965d7a400999358c7f725a19bc2e538aef1598936ad7f56f7424e";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
