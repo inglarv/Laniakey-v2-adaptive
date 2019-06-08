@@ -1,4 +1,4 @@
-# daemon runs in the background
+# daemon runs in the background 
 # run something like tail /var/log/turtlecoind/current to see the status
 # be sure to run with volumes, ie:
 # docker run -v $(pwd)/turtlecoind:/var/lib/turtlecoind -v $(pwd)/wallet:/home/turtlecoin --rm -ti turtlecoin:latest
